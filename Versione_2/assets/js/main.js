@@ -8,7 +8,7 @@ var app = new Vue
 
     mounted()
     {
-
+        
     },
 
     beforeUpdate()
