@@ -16,6 +16,8 @@
     background-color: #1e2d3b;
     height: 100vh;
     padding: 100px;
+    overflow: auto;
+    display: hidden;
 }
 
 .container

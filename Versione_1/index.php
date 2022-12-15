@@ -102,10 +102,10 @@ $database =
             foreach($database as $album)
             {
                 echo '<div class="carta d-flex flex-wrap justify-content-center">';
-                echo '<img src="' . $album['poster'] . '">';
-                echo '<h4>' . $album["title"] . '</h4>';
-                echo '<p class="w-100">' . $album["author"] . '</p>';
-                echo '<p>' . $album["year"] . '</p>';
+                    echo '<img src="' . $album['poster'] . '">';
+                    echo '<h4>' . $album["title"] . '</h4>';
+                    echo '<p class="w-100">' . $album["author"] . '</p>';
+                    echo '<p>' . $album["year"] . '</p>';
                 echo '</div>';
             }
         
