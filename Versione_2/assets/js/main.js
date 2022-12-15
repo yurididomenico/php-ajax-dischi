@@ -8,7 +8,11 @@ var app = new Vue
 
     mounted()
     {
-        
+        //Chiamata axios (percorso parte da index.html!)
+        axios.get('./api/index.php').then((res) =>
+        {
+            console.log(res.data);
+        })
     },
 
     beforeUpdate()
