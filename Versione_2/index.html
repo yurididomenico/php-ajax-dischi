@@ -18,7 +18,16 @@
 
     <h1>YDD - Ajax Dischi V2</h1>
     
-
+    <div class="container d-flex flex-wrap">
+        
+        <!-- Ciclo for per stampare dinamicamente le 10 carte -->
+        <div class="carta d-flex flex-wrap justify-content-center" v-for="(elem, index) in arrayAlbums" :key="index">
+            <img :src="elem.poster">
+            <h4>{{elem.titolo}}</h4>
+            <p class="w-100">{{elem.author}}</p>
+            <p>{{elem.year}}</p>
+        </div>
+    </div>
 </div>
 
 <!-- Axios 1.1.3 -->
